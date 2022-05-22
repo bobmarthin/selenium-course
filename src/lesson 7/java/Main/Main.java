@@ -12,5 +12,7 @@ public class Main {
         String Str = "Hello world";
         BigDecimal db=null;
         System.out.println(Str);
+
+
     }
 }

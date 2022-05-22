@@ -52,6 +52,7 @@ public class NullPointerException1 {
         {
 
             System.out.println("in ArrayIndexOutOfBoundsException ");
+            System.exit(1);
 
         }
         catch (Exception exception){
