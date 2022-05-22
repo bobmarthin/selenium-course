@@ -1,4 +1,16 @@
 1. Execute NullPointerException1 class and check the order of the stack.
 2. In the class Amount.java implement custom exception
-3. Execute Puzzle from the lesson and add    System.exit(1); to see that finally not executed
+
+Solution :
+public void add1 (Amount other) throws Exception {
+       if (!this.currency.equals(other.currency))
+       {
+           throw new Exception("CurrencyDo not match ");
+       }
+       this.amount=this.amount+other.amount;
+   }
+
+}
+
+3. Execute Puzzle from the lesson and add   System.exit(1); to see that finally not executed
 4. Execute Static Variables class to see results of static count.
