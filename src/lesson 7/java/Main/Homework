@@ -14,3 +14,4 @@ public void add1 (Amount other) throws Exception {
 
 3. Execute Puzzle from the lesson and add   System.exit(1); to see that finally not executed
 4. Execute Static Variables class to see results of static count.
+5. For the next lesson please register to https://github.com/ if you don't have account
