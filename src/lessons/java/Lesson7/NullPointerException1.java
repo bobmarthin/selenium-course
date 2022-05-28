@@ -11,7 +11,7 @@ method2
 main method
  */
 
-package Main;
+package Lesson7;
 
 
 

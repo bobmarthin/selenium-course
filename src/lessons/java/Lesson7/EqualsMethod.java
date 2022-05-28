@@ -1,5 +1,5 @@
 //Tip 03 - equals method
-package Main;
+package Lesson7;
 
 public class EqualsMethod {
 

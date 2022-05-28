@@ -1,7 +1,7 @@
-package Main;
+package Lesson7;
 
 // We will learn the difference between default , private and protected from external package
-import External.AccessModifiers1;
+import Lesson7.External.AccessModifiers1;
 
 public class Public {
 

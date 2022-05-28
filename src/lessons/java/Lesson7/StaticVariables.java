@@ -3,7 +3,7 @@
 To be able to use the same variable in different methods
 */
 
-package Main;
+package Lesson7;
 import static java.lang.System.out;
 
 public class StaticVariables {

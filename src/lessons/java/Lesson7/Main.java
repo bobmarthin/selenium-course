@@ -1,7 +1,7 @@
 // Tip-1 Imports and Static Imports example
 // import java.lang.String; - is default
 
-package Main;
+package Lesson7;
 
 import java.lang.String;
 import java.math.BigDecimal;

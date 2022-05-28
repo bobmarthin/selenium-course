@@ -1,6 +1,6 @@
-package Main;
+package Lesson7;
 
-import External.AccessModifiers1;
+import Lesson7.External.AccessModifiers1;
 
 public class AccessModifiersRunner {
 

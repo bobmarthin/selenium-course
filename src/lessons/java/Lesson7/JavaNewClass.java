@@ -1,5 +1,5 @@
 // Tip2-Blocks
-package Main;
+package Lesson7;
 
 import java.math.BigDecimal;
 

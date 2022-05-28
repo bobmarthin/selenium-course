@@ -1,4 +1,4 @@
-package Main;
+package Lesson7;
 
 public class Amount {
     private  String currency;
