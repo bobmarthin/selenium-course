@@ -1,0 +1,4 @@
+1) Add method sub (a,b) to class Calculator להוסיף פונקציית חיבור ו3 טסטים
+Create New TestClass to test sub (a,b) with 3 tests
+2) Run Selenium Class and make sure it's open Chrome
+להריץ מחלקת Selenium אם יש צורך לתקן pom.xml
