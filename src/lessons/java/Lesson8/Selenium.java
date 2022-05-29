@@ -1,3 +1,4 @@
+//First example of Chrome Selenium Test
 package Lesson8;
 
 import org.openqa.selenium.WebDriver;
@@ -13,8 +14,9 @@ public class Selenium {
         WebDriver driver = new ChromeDriver();
         driver.get("http://google.com");
         String actualTitle = driver.getTitle();
-        String expectedTitle="Google";
+        String expectedTitle="Google1";
         assertEquals("Google title",expectedTitle,actualTitle);
-        driver.quit();
+//        driver.quit();
     }
+
 }
