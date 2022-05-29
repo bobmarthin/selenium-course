@@ -1,6 +1,6 @@
 //Exception Unchecked
 
-package Main;
+package Lesson7;
 
 public class CheckedException {
     private void SomeMethod() throws InterruptedException {

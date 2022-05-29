@@ -1,6 +1,6 @@
 // Will finally be executed ?
 
-package Main;
+package Lesson7;
 
 public class exercise {
     private static void method ()

@@ -11,10 +11,7 @@ method2
 main method
  */
 
-package Main;
-
-
-
+package Lesson7;
 public class NullPointerException1 {
     public static void main(String[] args) {
 //        String str1="abc";
@@ -52,7 +49,7 @@ public class NullPointerException1 {
         {
 
             System.out.println("in ArrayIndexOutOfBoundsException ");
-            System.exit(1);
+            //System.exit(1);
 
         }
         catch (Exception exception){

@@ -1,6 +1,6 @@
 //Tip 05 - Class Access Modifiers
 
-package Main;
+package Lesson7;
 
 public class AccessModifiers {
 

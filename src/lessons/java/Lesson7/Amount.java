@@ -1,4 +1,4 @@
-package Main;
+package Lesson7;
 
 public class Amount {
     private  String currency;
@@ -13,12 +13,13 @@ public class Amount {
         return amount + " " + currency;
     }
 
-    public void add (Amount other){
+    public void add (Amount other) throws Exception {
         if (!this.currency.equals(other.currency)){
-            throw  new RuntimeException("CurrencyNotEqual");
+                throw  new Exception("CurrencyNotEqual");
         }
+        this.amount = this.amount + other.amount;
 
-        this.amount=this.amount+ other.amount;
+
     }
 }
 
@@ -26,7 +27,7 @@ public class Amount {
 
 
 class ExceptionRunner{
-    public static void main(String[] args) {
+    public static void main(String[] args) throws Exception {
         Amount amount1 =new Amount("USD" , 10);
         Amount amount2 =new Amount("USD", 20);
         Amount amount3 =new Amount("EUR",20);

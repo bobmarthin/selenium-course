@@ -1,4 +1,4 @@
-package External;
+package Lesson7.External;
 
 import java.util.Arrays;
 
