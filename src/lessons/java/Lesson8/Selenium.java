@@ -11,6 +11,7 @@ import static org.junit.Assert.*;
 public class Selenium {
     public static void main(String[] args) {
 //        WebDriver driver = new FirefoxDriver();
+        System.setProperty("webdriver.chrome.driver","C:/path/to/chromedriver.exe"); // מסלול לקובץ שקיבלתם לפני השיעור
         WebDriver driver = new ChromeDriver();
         driver.get("http://google.com");
         String actualTitle = driver.getTitle();
